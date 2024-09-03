@@ -2,3 +2,4 @@ set number relativenumber
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 nnoremap <silent> <leader>r :set relativenumber!<CR>
+map ff <Action>(GotoFile)
