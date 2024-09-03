@@ -1,0 +1,1 @@
+ls -la to show all files, dotfiles are hidden
