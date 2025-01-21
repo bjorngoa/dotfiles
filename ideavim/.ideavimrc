@@ -2,4 +2,11 @@ set number relativenumber
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 nnoremap <silent> <leader>r :set relativenumber!<CR>
+map ff <Action>(GotoFile)set number relativenumber
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+nnoremap <silent> <leader>r :set relativenumber!<CR>
 map ff <Action>(GotoFile)
+set multiple-cursors
+set ignorecase
+nnoremap <silent> <leader>s :vsplit<CR>
