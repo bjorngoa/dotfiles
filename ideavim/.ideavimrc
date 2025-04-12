@@ -9,4 +9,16 @@ nnoremap <silent> <leader>r :set relativenumber!<CR>
 map ff <Action>(GotoFile)
 set multiple-cursors
 set ignorecase
+nnoremap <silent> <leader>s :vsplit<CR>set number relativenumber
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+nnoremap <silent> <leader>r :set relativenumber!<CR>
+set multiple-cursors
+set ignorecase
 nnoremap <silent> <leader>s :vsplit<CR>
+
+"Mappings
+map <leader>b <Action>(Git.Branches)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+map ff <Action>(GotoFile)
+
